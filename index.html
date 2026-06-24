@@ -152,14 +152,15 @@
   @media(max-width:680px){.case-header{grid-template-columns:1fr}.case-preview{flex-direction:column;align-items:flex-start}}
 
   /* SKILLS */
-  .skill-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden}
+  .skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden}
   .skill-cell{background:var(--ink);padding:24px 26px;transition:background .2s}
   .skill-cell:hover{background:rgba(247,245,240,.03)}
   .skill-cell .k{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--amber);margin-bottom:12px;display:block}
   .skill-cell ul{list-style:none}
   .skill-cell li{font-size:.92rem;color:rgba(247,245,240,.82);padding:3px 0;display:flex;align-items:center;gap:8px}
   .skill-cell li::before{content:"";width:4px;height:4px;border-radius:50%;background:var(--green);flex-shrink:0}
-  @media(max-width:600px){.skill-grid{grid-template-columns:1fr}}
+  @media(max-width:700px){.skill-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:480px){.skill-grid{grid-template-columns:1fr}}
 
   /* EDUCATION */
   .edu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
@@ -206,7 +207,7 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="mailto:ing.rominaarga@gmail.com" class="nav-cta">Hire me →</a>
+      <a href="#contact" class="nav-cta">Let's talk</a>
       <button class="nav-hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
     </div>
   </div>
@@ -218,7 +219,7 @@
   <header class="hero">
     <div class="hero-bg"></div>
     <div class="hero-eyebrow">Available now — M6 8NR, Salford, Manchester, UK</div>
-    <h1>14 years leading, <em>delivering</em>, and administering IT systems.</h1>
+    <h1>IT systems engineer. <em>Project leader.</em> 14 years in public sector and community IT.</h1>
     <p class="hero-sub">
       <strong>Romina Antonella Arganaraz</strong> — Information Systems Engineer & PMP-certified Project Manager. From directing provincial digital transformation and e-government programmes in Argentina to hands-on IT support, web systems, and CRM administration in Greater Manchester.
     </p>
@@ -230,11 +231,12 @@
       <span class="hero-badge">1st / 2nd Line Support</span>
       <span class="hero-badge">Digital Transformation</span>
       <span class="hero-badge">Team Leadership</span>
-      <span class="hero-badge">CRM Administration</span>
+      <span class="hero-badge">Cybersecurity Awareness</span>
+      <span class="hero-badge">Access Control & Compliance</span>
     </div>
     <div class="hero-meta">
       <a class="btn btn-primary" href="mailto:ing.rominaarga@gmail.com">Get in touch</a>
-      <a class="btn btn-ghost" href="CV_Romina.pdf" target="_blank">Download CV</a>
+      <a class="btn btn-ghost" href="CV_Romina.pdf">Download CV</a>
       <a class="btn btn-ghost" href="https://linkedin.com/in/romina-antonella-arganaraz-pmp" target="_blank" rel="noopener">LinkedIn ↗</a>
     </div>
   </header>
@@ -565,6 +567,16 @@
         </ul>
       </div>
       <div class="skill-cell reveal">
+        <span class="k">Cybersecurity & Compliance</span>
+        <ul>
+          <li>Identity & access management (IAM)</li>
+          <li>Conditional Access policies</li>
+          <li>Government data protection standards</li>
+          <li>Audit logging & compliance workflows</li>
+          <li>Secure citizen data handling</li>
+        </ul>
+      </div>
+      <div class="skill-cell reveal">
         <span class="k">Project & Programme Delivery</span>
         <ul>
           <li>PMP-certified project management</li>
@@ -592,6 +604,16 @@
           <li>Web content management & SEO</li>
           <li>Digital inclusion & staff training</li>
           <li>Bilingual: English / Spanish</li>
+        </ul>
+      </div>
+      <div class="skill-cell reveal">
+        <span class="k">Certifications & Education</span>
+        <ul>
+          <li>PMP — Project Management Institute, 2023</li>
+          <li>BSc Information Systems Engineering</li>
+          <li>Top Graduate — UTN Tucumán</li>
+          <li>GPA 8/10</li>
+          <li>14+ years continuous practice</li>
         </ul>
       </div>
     </div>
@@ -634,7 +656,7 @@
     <p>Open to permanent, part-time and contract roles across Greater Manchester — on-site, hybrid or remote.</p>
     <div class="close-actions">
       <a class="btn btn-primary" href="mailto:ing.rominaarga@gmail.com">Email Romina</a>
-      <a class="btn btn-ghost" href="CV_Romina.pdf" target="_blank">Download CV</a>
+      <a class="btn btn-ghost" href="CV_Romina.pdf">Download CV</a>
       <a class="btn btn-ghost" href="https://linkedin.com/in/romina-antonella-arganaraz-pmp" target="_blank" rel="noopener">LinkedIn ↗</a>
     </div>
   </section>
